@@ -1,7 +1,5 @@
 ## Grunt-Impact
 
-![Alt text](grunt-impact-logo.png)
-
 Grunt-Impact is a [Grunt](http://gruntjs.com/) build system for all your [ImpactJS](http://impactjs.com/) games. It aims to streamline baking and deployment to a few keystrokes.
 
 Before you do anything else, you must have [nodejs](http://nodejs.org/) installed.
