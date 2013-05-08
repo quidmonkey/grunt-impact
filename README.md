@@ -1,6 +1,6 @@
-## Grunt-Impact
-
 ![Alt text](grunt-impact-logo.png)
+
+## Grunt-Impact
 
 Grunt-Impact is a [Grunt](http://gruntjs.com/) build system for all your [ImpactJS](http://impactjs.com/) games. It aims to streamline baking and deployment to a few keystrokes.
 
@@ -15,7 +15,7 @@ npm install
 
 This will install grunt and then install all devDependencies specified in the package.json.
 
-After running the commands you need to take a look at the package.json file and update the commented items to your local configuration.
+After running the commands you need to take a look at the [package.json](package.json) file and update the commented items to your local configuration.
 
 And that's it!
 
@@ -38,4 +38,4 @@ If you run '''grunt''' by itself, it'll do the same as ```grunt build```.
 
 ## What's Next?
 
-That's up to you! This grunt configuration is by no means exhaustive to the ImpactJS community needs. Please feel free to offer up suggestions and pull requests to make Grunt-Impact better!
+That's up to you! This Grunt configuration is by no means exhaustive to the ImpactJS community needs. Please feel free to offer up suggestions and pull requests to make Grunt-Impact better!
