@@ -21,18 +21,18 @@ Now you will have all the available commands listed below that can be run from t
 
 ## Commands
 
-- grunt bake - bakes your game
-- grunt build - bakes and uglifies your game
-- grunt cocoon - deploys a zip to a connected android phone for use with [CocoonJS](http://www.ludei.com/tech/cocoonjs)
-- grunt deploy - deploys your game to a remote server (settings in package.json)
-- grunt expose - replace all occurrences of ig with window.ig to expose ig globally for compilation purposes
-- grunt inject - injects minified script tags into your html files (specified in package.json) and removes the impact dev script tags
-- grunt prepare - bakes, uglifies and injects
-- grunt publish - bakes, uglifies, injects, deploys and reverts
-- grunt revert - removes the minified script tags from your html files (specified in package.json) and injects the impact dev script tags
-- grunt uglify - uglifies the baked file
+- ```grunt bake``` - bakes your game
+- ```grunt build``` - bakes and uglifies your game
+- ```grunt cocoon``` - deploys a zip to a connected android phone for use with [CocoonJS](http://www.ludei.com/tech/cocoonjs)
+- ```grunt deploy``` - deploys your game to a remote server (settings in package.json)
+- ```grunt expose``` - replace all occurrences of ig with window.ig to expose ig globally for compilation purposes
+- ```grunt inject``` - injects minified script tags into your html files (specified in package.json) and removes the impact dev script tags
+- ```grunt prepare``` - bakes, uglifies and injects
+- ```grunt publish``` - bakes, uglifies, injects, deploys and reverts
+- ```grunt revert``` - removes the minified script tags from your html files (specified in package.json) and injects the impact dev script tags
+- ```grunt uglify``` - uglifies the baked file
 
-If you run '''grunt''' by itself, it'll do the same as ```grunt build```.
+If you run ```grunt``` by itself, it'll do the same as ```grunt build```.
 
 ## What's Next?
 
