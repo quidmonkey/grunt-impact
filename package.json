@@ -1,17 +1,17 @@
 {
-  "name": "mygame",
-  "excludesFile": "excludes",
-  "htmlFiles": [
-    "index.html"
-  ],
-  "server": "myserver.com",
-  "user": "myusername",
-  "targetDir": "~",
-  "version": "0.1.0",
+  "deployDirectory": "~",
+  "deployServer": "myserver.com",
+  "deployUser": "myusername",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-uglify": "~0.2.0",
     "grunt-shell": "~0.2.2",
     "shelljs": "~0.1.3"
-  }
+  },
+  "excludesFile": "excludes",
+  "htmlFiles": [
+    "index.html"
+  ],
+  "name": "mygame",
+  "version": "0.1.0"
 }
