@@ -1,12 +1,12 @@
 {
-  "name": "mygame",                     // project name
-  "excludesFile": "excludes",           // files to exclude when deploying
-  "htmlFiles": [                        // html files which load the game
+  "name": "mygame",
+  "excludesFile": "excludes",
+  "htmlFiles": [
     "index.html"
   ],
-  "server": "myserver.com",             // deploy server (must have ssh setup)
-  "user": "myusername",                 // deploy server username
-  "targetDir": "~",                     // working directory for deploy server
+  "server": "myserver.com",
+  "user": "myusername",
+  "targetDir": "~",
   "version": "0.1.0",
   "devDependencies": {
     "grunt": "~0.4.1",
